@@ -3,76 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alex David | IAM & IT Operations</title>
+  <title>Alex David | IT Operations & Identity Access Management</title>
+  <meta name="description" content="Alex David: IT operations and identity & access management professional. Nearly 7 years supporting a 12,000+ user workforce at Block across Okta, Google Workspace, access lifecycle, and automation.">
+  <meta property="og:title" content="Alex David | IT Operations & IAM">
+  <meta property="og:description" content="Nearly 7 years supporting a 12,000+ user workforce at Block. Okta, Google Workspace, access lifecycle, and automation.">
+  <meta property="og:url" content="https://aldavid.is-a.dev/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; }
-    * { box-sizing:border-box; margin:0; padding:0; }
-    body { font-family:system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; padding:48px 16px; }
-    main { max-width:760px; margin:0 auto; }
-    h1 { font-size:2.2rem; }
-    .tagline { color:var(--accent); font-weight:600; margin-bottom:8px; }
-    .loc { color:var(--muted); margin-bottom:32px; }
-    section { background:var(--card); border-radius:12px; padding:24px; margin-bottom:20px; }
-    h2 { font-size:1.1rem; color:var(--accent); margin-bottom:12px; }
-    ul { padding-left:20px; }
-    li { margin-bottom:6px; }
-    .tags span { display:inline-block; background:#0b1220; border:1px solid #334155; border-radius:999px; padding:4px 12px; margin:4px 6px 4px 0; font-size:.9rem; }
-    a { color:var(--accent); }
-    footer { color:var(--muted); text-align:center; margin-top:32px; font-size:.9rem; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Alex David</h1>
-    <p class="tagline">Identity & Access Management · Okta Administration · Enterprise IT</p>
-    <p class="loc">Vancouver, WA (Portland metro)</p>
+    :root {
+      --bg: #0d141b; --surface: #151f29; --line: #253341; --text: #e3e9ef; --muted: #93a2b1;
+      --accent: #5cc3e0; --accent-soft: #14303a; --ok: #5fcf93;
+      --display: "Archivo", system-ui, sans-serif; --body: "Source Sans 3", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace;
+      color-scheme: dark;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f7f9; --surface: #ffffff; --line: #d9e0e7; --text: #17212b; --muted: #586675;
+        --accent: #0e6e8c; --accent-soft: #e2f1f6; --ok: #1f7a4a; color-scheme: light;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    body { font-family: var(--body); background: var(--bg); color: var(--text); line-height: 1.6; font-size: 17px; padding: 0 16px; }
+    main { max-width: 820px; margin: 0 auto; padding: 56px 0 72px; display: flex; flex-direction: column; gap: 56px; }
+    h1, h2, h3 { font-family: var(--display); line-height: 1.2; text-wrap: balance; }
+    h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; letter-spacing: -0.02em; }
+    h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
+    h3 { font-size: 1.1rem; font-weight: 600; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 
-    <section>
-      <h2>About</h2>
-      <p>IT professional with nearly 7 years supporting a large enterprise environment at Block, Inc. I focus on identity and access management: Okta administration, user lifecycle, SSO, and keeping access secure without getting in people's way.</p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li><strong>IT Support Specialist, Block, Inc.</strong> (nearly 7 years): enterprise end-user support, identity and access operations, Okta administration.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="tags">
-        <span>Okta</span><span>IAM</span><span>SSO / SAML</span><span>User Lifecycle Management</span>
-        <span>Provisioning</span><span>MFA &amp; Security Policies</span><span>Enterprise IT Operations</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>Currently Working On</h2>
-      <ul>
-        <li>Okta Certified Professional certification</li>
-        <li>CompTIA Security+ (SY0-701)</li>
-        <li>Hands-on IAM lab projects on GitHub</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Year Up United</strong>, Certificate of Completion in Information Technology (2014–2015), San Francisco, CA</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Links</h2>
-      <ul>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/aldavid91">linkedin.com/in/aldavid91</a></li>
-        <li>GitHub: <a href="https://github.com/aldavid91">github.com/aldavid91</a></li>
-      </ul>
-    </section>
-
-    <footer>© 2026 Alex David</footer>
-  </main>
-</body>
-</html>
-
+    .hero { display: flex; flex-direction: column; gap: 16px; }
+    .role { font-size: 1.2rem; color: var(--text); max-width: 60ch; }
+    .loc { color: var(--muted);
